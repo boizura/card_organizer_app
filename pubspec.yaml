@@ -63,7 +63,58 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/images/
+    - assets/images/2C.png
+    - assets/images/2D.png
+    - assets/images/2H.png
+    - assets/images/2S.png
+    - assets/images/3C.png
+    - assets/images/3D.png
+    - assets/images/3H.png
+    - assets/images/3S.png
+    - assets/images/4C.png
+    - assets/images/4D.png
+    - assets/images/4H.png
+    - assets/images/4S.png
+    - assets/images/5C.png
+    - assets/images/5D.png
+    - assets/images/5H.png
+    - assets/images/5S.png
+    - assets/images/6C.png
+    - assets/images/6D.png
+    - assets/images/6H.png
+    - assets/images/6S.png
+    - assets/images/7C.png
+    - assets/images/7D.png
+    - assets/images/7H.png
+    - assets/images/7S.png
+    - assets/images/8C.png
+    - assets/images/8D.png
+    - assets/images/8H.png
+    - assets/images/8S.png
+    - assets/images/9C.png
+    - assets/images/9D.png
+    - assets/images/9H.png
+    - assets/images/9S.png
+    - assets/images/10C.png
+    - assets/images/10D.png
+    - assets/images/10H.png
+    - assets/images/10S.png
+    - assets/images/AC.png
+    - assets/images/AD.png
+    - assets/images/AH.png
+    - assets/images/AS.png
+    - assets/images/JC.png
+    - assets/images/JD.png
+    - assets/images/JH.png
+    - assets/images/JS.png
+    - assets/images/KC.png
+    - assets/images/KD.png
+    - assets/images/KH.png
+    - assets/images/KS.png
+    - assets/images/QC.png
+    - assets/images/QD.png
+    - assets/images/QH.png
+    - assets/images/QS.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:
