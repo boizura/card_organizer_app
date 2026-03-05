@@ -13,7 +13,8 @@ class PlayingCard {
     required this.folderId,
   });
 
-  Map toMap() {
+  // Convert object to database map
+  Map<String, dynamic> toMap() {
     return {
       'id': id,
       'card_name': cardName,
@@ -23,7 +24,8 @@ class PlayingCard {
     };
   }
 
-  factory PlayingCard.fromMap(Map map) {
+  // Convert database map to object
+  factory PlayingCard.fromMap(Map<String, dynamic> map) {
     return PlayingCard(
       id: map['id'],
       cardName: map['card_name'],
@@ -33,6 +35,7 @@ class PlayingCard {
     );
   }
 
+  // create modified copy of card
   PlayingCard copyWith({
     int? id,
     String? cardName,
