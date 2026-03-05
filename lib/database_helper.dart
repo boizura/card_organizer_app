@@ -72,7 +72,7 @@ class DatabaseHelper {
   }
 
   /// asset naming example: 2C.png for 2 of Clubs.
-  /// We'll use: A,2..10,J,Q,K + suit letter: C,D,H,S
+  /// Naming convention: A,2..10,J,Q,K + suit letter: C,D,H,S
   /// Example outputs: Ace of Spades => AS.png
   Future<void> _prepopulateCards(Database db) async {
     const suitMap = {
@@ -84,8 +84,7 @@ class DatabaseHelper {
 
     const ranks = ['A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K'];
 
-    // Because we inserted folders in order, their ids will be 1..4 in that order.
-    // If you want to be extra safe, you can query IDs by name instead.
+    // Because folders inserted in order, their ids will be 1..4 in that order.
     final folderNames = ['Hearts', 'Diamonds', 'Clubs', 'Spades'];
 
     for (int i = 0; i < folderNames.length; i++) {
